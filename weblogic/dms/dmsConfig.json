@@ -1,0 +1,71 @@
+{
+   "OAMS.OAM_Applications": {
+        "Tags": { 
+            "Host": "",
+            "Process": ""
+        },
+        "Fields": {
+           "Variables": {
+              "AuthnPolicyResponse.minTime": "",
+              "AuthnPolicyResponse.maxTime": "",
+              "AuthnPolicyResponse.avg": "",
+              "AuthnPolicyResponse.completed": "",
+              "AuthnPolicyResponse.active": "",
+              "AuthPolicyResponseSuccess.count": "",
+              "AuthnPolicyResponse.maxActive": ""
+           }
+           
+        }
+     },
+   "OAMS.OAM_Authn": {
+        "Tags": {
+            "Host": "",
+            "Process": ""
+         },
+        "Fields": {
+           "Variables": {
+              "AuthnErr.count": {},
+              "validateUserFailed.count": {},
+              "validateUserSuccess.completed": {},
+              "validateUserSuccess.minTime": {},
+              "validateUserSuccess.maxTime": {},
+              "validateUserSuccess.maxActive": {},
+              "validateUserSuccess.avg": {}
+           }
+       }
+   }, 
+   "OAMS.OAM_Partners": {
+        "Tags": {
+            "Host": "",
+            "Process": ""
+         },
+        "Fields": {
+           "Variables": {
+              "MessageSecurityXMLSignatureVerifier.time": {},
+              "MessageSecurityXMLSignatures_Verified.count": {},
+              "MessageSecurityXMLDecryptionService.time": {},
+              "MessageSecurityQueryStringSignatureVerifier.time": {},
+              "FedRequestsSignedRequests.count": {},
+              "FedRequestsAuthnRequestRequests.count": {}
+           }
+       }
+   }, 
+   "LibOVD.ids.GSI": {
+        "Tags": {
+            "Host": "",
+            "Process": ""
+         },
+        "Fields": {
+           "Variables": {
+              "SuccessfulRequests.count": {},
+              "ProcessingTime.time": {},
+              "ProcessingTime.minTime": {},
+              "ProcessingTime.maxTime": {},
+              "ProcessingTime.avg": {},
+              "FailedRequests.count": {}
+           }
+       }
+   } 
+
+
+}
